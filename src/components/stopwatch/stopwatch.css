@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+.stopwatch,.laps{
+    padding-top: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+
+.stopwatch-title{
+    color: purple;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.stopwatch-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.time{
+    color: purple;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+p.lap{
+    margin: 10px auto;
+    width: 250px;
+    padding: 5px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: lightgray;
+}
